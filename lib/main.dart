@@ -11,8 +11,12 @@ void main(){
 
   var app = MaterialApp(
     home: Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){}
+      ),
       backgroundColor: bgColor,
       appBar: AppBar(
+        title: Text('App'),
         backgroundColor: barColor,
       ),
     ),
