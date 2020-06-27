@@ -12,6 +12,8 @@ void main(){
   var app = MaterialApp(
     home: Scaffold(
       floatingActionButton: FloatingActionButton(
+        backgroundColor:barColor,
+        child: Icon(Icons.add, color: bgColor),
         onPressed: (){}
       ),
       backgroundColor: bgColor,
